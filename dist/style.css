@@ -1,0 +1,93 @@
+:root{
+    --lighter-cyan:#E3FDFD;
+    --light-cyan:#E3FDFD;
+    --dark-cyan:#A6E3E9;
+    --darker-cyan:#71C9CE;
+}
+body, html,div,h1{
+    margin:0px;
+    padding:0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main{
+    padding: 0px;
+    background-color: var(--darker-cyan);
+    width: 100vw;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    height: 20vh;
+
+
+}
+.content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(227, 253, 253, 0.5);
+    width: 50vw;
+    height: 50vh;
+    border-radius: 40px;
+    box-shadow: 7px 10px 13px 1px rgba(0,0,0,0.3);
+    font-size: large;
+
+
+}
+.card-icon{
+    width: 150px;
+    height: 150px;
+    border-radius: 300px;
+}
+.card-header{
+    justify-self: flex-start;
+    font-size: 20px;
+}
+.footer-div{
+    display: flex;
+    justify-content: space-around;
+}
+.temp{
+    cursor: pointer;
+}
+.title{
+    color: var(--lighter-cyan);
+    
+}
+.cityname-input{
+    border: none;
+    background-color: rgba(227, 253, 253, 0.5);;
+    width: 40vw;
+    color: var(--darker-cyan);
+    height: 5vh;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 5px;
+    
+    
+}
+.cityform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.search-btn{
+    border: none;
+    border-radius: 5px;
+    height: 30% ;
+    width: 100%;
+    background-color: rgba(227, 253, 253, 0.5);
+    cursor: pointer;
+}
